@@ -30,8 +30,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     device/nextbit/nbq/kernel:kernel
 
-PRODUCT_NAME := omni_nbq
-PRODUCT_DEVICE := nbq
+PRODUCT_NAME := omni_ether
+PRODUCT_DEVICE := ether
 PRODUCT_BRAND := Nextbit
 PRODUCT_MODEL := Robin
 PRODUCT_MANUFACTURER := Nextbit

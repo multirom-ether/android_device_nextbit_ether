@@ -14,6 +14,6 @@
 # limitations under the License.
 #
 
-ifneq ($(filter nbq,$(TARGET_DEVICE)),)
+ifneq ($(filter ether,$(TARGET_DEVICE)),)
     include $(all-subdir-makefiles)
 endif
