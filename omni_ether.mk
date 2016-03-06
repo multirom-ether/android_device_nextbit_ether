@@ -28,7 +28,7 @@ PRODUCT_PACKAGES += \
     charger
 
 PRODUCT_COPY_FILES += \
-    device/nextbit/nbq/kernel:kernel
+    device/nextbit/ether/kernel:kernel
 
 PRODUCT_NAME := omni_ether
 PRODUCT_DEVICE := ether

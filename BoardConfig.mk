@@ -27,7 +27,7 @@ BOARD_KERNEL_PAGESIZE := 4096
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 
 # prebuilt kernel
-TARGET_PREBUILT_KERNEL := device/nextbit/nbq/kernel
+TARGET_PREBUILT_KERNEL := device/nextbit/ether/kernel
 
 # TODO Need to get these values off a running device
 BOARD_BOOTIMAGE_PARTITION_SIZE := 41943040
