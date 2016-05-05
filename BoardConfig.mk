@@ -51,3 +51,17 @@ BOARD_HAS_NO_REAL_SDCARD := true
 
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
+
+#MultiROM
+TARGET_RECOVERY_IS_MULTIROM := true
+MR_INPUT_TYPE := type_b
+MR_INIT_DEVICES := device/nextbit/ether/multirom/mr_init_devices.c
+#MR_RD_ADDR := 0x01100000
+MR_DPI := xxhdpi
+MR_DPI_FONT := 435
+MR_FSTAB := device/moto/clark/twrp.fstab
+MR_USE_MROM_FSTAB := false
+MR_DEVICE_HOOKS := device/nextbit/ethermultirom/mr_hooks.c
+MR_DEVICE_HOOKS_VER := 5
+MR_KEXEC_MEM_MIN := 0x0
+MR_PIXEL_FORMAT := "ABGR_8888"
